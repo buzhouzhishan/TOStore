@@ -1,2 +1,79 @@
 # TOStore
-Testdo create.can put your app.zip at this store!,have mac and windows or linux!
+# 🎮 TOStore仓库
+
+欢迎来到TOStore仓库！这里可以上传和下载大家制作的程序包。
+
+> 📌 **所有上传的文件都是 ZIP 格式**，里面包含将 sb3 转换后的可执行程序。
+
+---
+
+## 📦 文件名格式要求
+
+为了方便大家识别，上传的文件必须按以下格式命名：
+
+[系统架构]应用名称
+
+
+### 系统架构可选值：
+
+| 架构标签 | 说明 |
+| :--- | :--- |
+| `windows x32` | Windows 32位系统 |
+| `windows x64` | Windows 64位系统 |
+| `mac intel` | Mac Intel芯片 |
+| `mac silicon` | Mac M1/M2/M3芯片 |
+| `linux x64` | Linux 64位系统 |
+| `android` | 安卓APK |
+
+### 命名示例：
+
+- `[windows x64]我的第一个游戏.zip`
+- `[mac intel]跳跃挑战.zip`
+- `[windows x32]数学练习.zip`
+
+> ⚠️ **注意**：方括号 `[]` 和里面的架构标签必须完整，方便大家快速识别你的作品适用什么设备。
+
+---
+
+## ⬇️ 如何下载
+
+1. 点击上方的 **Releases** 页面
+2. 找到你想下载的版本
+3. 点击对应的 ZIP 文件，即可下载
+
+---
+
+## ⬆️ 如何上传你的作品
+
+### 方法一：通过 Pull Request（推荐，适合所有人）
+
+1. **Fork** 本仓库（点击右上角的 Fork 按钮）
+2. 在你 Fork 的仓库中，进入 **Releases** 页面
+3. 点击 **Draft a new release**
+4. 填写版本号（如 `v1.0`），标题写你的作品名
+5. **上传你的 ZIP 文件**（确保文件名格式正确）
+6. 点击 **Publish release**
+7. 回到本仓库，点击 **Pull requests** → **New pull request**
+8. 选择你 Fork 的仓库和分支 → 提交 PR
+9. 等待审核通过后，你的作品就会出现在 Releases 页面
+
+### 方法二：直接联系管理员（适合不熟悉 GitHub 的用户）
+
+如果你不会操作 GitHub，可以：
+- 在 Issues 中提交你的 ZIP 文件附件
+- 或者直接联系仓库管理员帮你上传
+
+---
+
+## 📋 上传前检查清单
+
+- [ ] 文件名格式正确：`[系统架构]作品名称.zip`
+- [ ] ZIP 里面是 sb3 转成的可执行程序
+- [ ] 测试过程序能正常运行
+- [ ] 没有包含病毒或恶意代码
+
+---
+
+## 📄 许可证
+
+本仓库中的作品版权归原作者所有。下载使用请遵守原作者的授权说明。
